@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AndroidAlarmService" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Timeformat" />
+
+    <TimePicker
+        android:id="@+id/timepicker_alarmsvc"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startalarm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/StartAlrm" />
+
+    <Button
+        android:id="@+id/cancelalarm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CancelAlrm" />
+
+    <Button
+        android:id="@+id/snooze"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SnoozeAlrm" />
+
+    <Button
+        android:id="@+id/backbutton_alrm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+
+</LinearLayout>

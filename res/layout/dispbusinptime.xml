@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/bus_information"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/busInfoText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="left"
+        android:visibility="visible" />
+
+    <TimePicker
+        android:id="@+id/timepicker_dispbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setbutton"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="37dp" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView3"
+        android:text="@string/back"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/setbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/alarmtimeText"
+        android:text="@string/set"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/alarmtimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timepicker_dispbus"
+        android:layout_marginBottom="51dp"
+        android:layout_toLeftOf="@+id/timepicker_dispbus"
+        android:text="@string/alarm_time"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SocialCtxt_Alarm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="bus_information">Bus Information</string>
+    <string name="alarm_time">Alarm Time</string>
+    <string name="set">Set </string>
+    <string name="back">Back</string>
+    <string name="BluetoothProx">Bluetooth Proximity Context</string>
+    <string name="TrafficCtxt">Traffic Context</string>
+    <string name="CancelAlrm">Cancel Alarm</string>
+    <string name="CancelTrafficAlrm">Cancel Traffic Alarm</string>
+    <string name="StartAlrm">Start Alarm</string>
+    <string name="SnoozeAlrm">Snooze Alarm</string>
+    <string name="SnoozeTrafficAlrm">Snooze Traffic Alarm</string>
+    <string name="Timeformat">Enter the time in hh-mm format</string>
+    <string name="Cntlist">Contact List</string>
+    <string name="Source">Source</string>
+    <string name="Destination">Destination</string>
+    <string name="Time">Time</string>   
+    <string name="Search">Search</string>
+
+</resources>
